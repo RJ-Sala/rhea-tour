@@ -1,0 +1,204 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Source Sans Pro', Arial, sans-serif;
+}
+
+
+/* Header*/
+.navbar {
+    background: #131842;
+    font-size: 1.2rem;
+}
+
+.nav-link:hover {
+    border-bottom: 4px solid #D6CC99;
+    box-radius: 2px;
+}
+
+/* Front */
+.card-titles {
+    font-size: 3.5rem;
+}
+
+.card-texts {
+    font-size: 1.6rem;
+}
+
+.btn {
+    height: 50px;
+    width: 100%;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* About Me */
+.proj h2 {
+    font-weight: bolder;
+}
+.col-md-6 .carousel-item {
+    border-radius: 0% 100% 1% 99% / 62% 33% 67% 38%;
+    background: beige;
+}
+
+.me {
+    width: 75%;
+    padding-top: 70px;
+    font-size: 40px;
+}
+
+.desc {
+    width: 70%;
+    font-size: 16px;
+}
+
+@media only screen and (max-width: 430px) {
+    .me {
+        width: 100% !important;
+        padding-top: 10px !important;
+    }
+    
+    .desc {
+        width: 100% !important;
+    }
+
+    .card-body .major-milestone {
+        font-size: 40px !important;
+        padding-left: 1% !important; 
+        padding-top: 9% !important;
+    }
+}
+
+@media only screen and (max-width: 770px) {
+    .me {
+        width: 90% !important;
+        padding-top: 15px !important;
+    }
+    
+    .desc {
+        width: 90% !important;
+    }
+
+    .d-block {
+        height: 490px !important;
+    }
+
+    .about-me {
+        width: 90% !important;
+    }
+
+    .con-row {
+        width: 85% !important; 
+    }
+
+    .card-body .major-milestone {
+        font-size: 38px !important;
+        padding-left: 1% !important; 
+        padding-top: 9% !important;
+    }
+
+    .carousel-item img {
+        height: 585px !important;
+    }
+}
+
+@media only screen and (max-width: 1030px) {
+    .me {
+        width: 90% !important;
+    }
+    
+    .desc {
+        width: 90% !important;
+    }
+
+    .d-block {
+        height: 450px !important;
+    }
+
+    .con-row {
+        width: 85% !important; 
+    }
+
+    .card-body .major-milestone {
+        font-size: 42px !important;
+        padding-left: 1% !important; 
+        padding-top: 9% !important;
+    }
+
+    .carousel-item img {
+        height: 600px !important;
+    }
+}
+
+/* Skills */
+.skilled {
+    color: #E90074;
+}
+
+.cards img {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 150px;
+    transition: .3s ease all;
+}
+
+.cards:hover img {
+    transition: .3s ease all;
+    transform: translateY(-20px);
+}
+
+/* My Project */
+.card-body .major-milestone {
+    font-size: 50px;
+    padding-left: 5%; 
+    padding-top: 9%;
+}
+
+.card-text {
+    font-size: 18px;
+}
+
+.card {
+    border: none;
+    box-shadow: none;
+}
+
+/* Contact */
+.btn-submit {
+    height: 45px;
+    width: 100%;
+    font-size: 23px;
+    background-color: #131842;
+}
+
+.btn-submit:hover {
+    transition: .3s ease all;
+    transform: translateY(-8px);
+}
+
+.fa-facebook:hover,
+.fa-linkedin:hover,
+.fa-square-instagram:hover {
+    transition: .3s ease all;
+    transform: translateY(8px);
+}
+
+.fa-facebook,
+.fa-linkedin,
+.fa-square-instagram{
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+.con-row {
+    width: 70%; 
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.btn-primary:hover {
+    background: #131842;
+}
